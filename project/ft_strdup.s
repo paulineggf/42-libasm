@@ -21,5 +21,5 @@ _ft_strdup:
 	ret					;return
 
 error:
-	mov rax, 0x0
-	ret
+	mov rax, 0x0		;met la valeur de retour a 0
+	ret					;ret
